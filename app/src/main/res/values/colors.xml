@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#221E1f</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F6EB14</color>
+
+    <!-- Line Chart -->
+    <color name="orange">#EE8641</color>
+    <color name="lightGray">#4A4546</color>
+    <color name="lightYellow">#F5C444</color>
+    <color name="lightGray30">#4D4A4546</color>
+
+</resources>

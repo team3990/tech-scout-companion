@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Tech Scout Companion</string>
+
+    <!-- Shared -->
+    <string name="name_unknown">Unknown</string>
+
+    <!-- Team Item -->
+    <string name="location_unknown">Location is unknown</string>
+
+    <!-- Comment Item -->
+    <string name="written_by">Written by %s</string>
+
+    <!-- Charts -->
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="none">None</string>
+    <string name="parks">Parks</string>
+    <string name="climbs">Climbs</string>
+    <string name="completes_position_control">Completes Position Control</string>
+    <string name="completes_rotation_control">Completes Rotation Control</string>
+    <string name="distribution_across_played_games">Distribution Across Played Games</string>
+
+    <!-- Fragment Labels -->
+    <string name="teams">Teams</string>
+    <string name="team_detail">Team Detail</string>
+
+    <!-- Team Detail -->
+    <string name="general">General</string>
+    <string name="comments">Comments</string>
+    <string name="analytics">Analytics</string>
+    <string name="about_robot">About robot</string>
+
+    <!-- Team Statistics -->
+    <string name="last_update">Last Update</string>
+    <string name="played_games">Played Games</string>
+    <string name="climb_duration">Climb Duration</string>
+    <string name="endgame_action">Endgame Action</string>
+    <string name="in_game_actions">In-Game Actions</string>
+    <string name="overall_mobility">Overall Mobility</string>
+    <string name="scored_power_cells">Scored Power Cells</string>
+    <string name="moves_to_initiation_line">Moves to Initiation Line</string>
+
+</resources>

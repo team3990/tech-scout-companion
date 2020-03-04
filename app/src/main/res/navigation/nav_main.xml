@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    android:label="@string/teams"
+    app:startDestination="@id/teamListFragment">
+
+    <fragment
+        android:id="@+id/teamListFragment"
+        android:name="com.team3990.techscoutcompanion.ui.TeamListFragment"
+        android:label="@string/teams"
+        tools:layout="@layout/fragment_team_list">
+        <action
+            android:id="@+id/action_teamListFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_close_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.team3990.techscoutcompanion.ui.TeamDetailFragment"
+        android:label="@string/team_detail"
+        tools:layout="@layout/fragment_team_detail">
+        <argument
+            android:name="teamNumber"
+            app:argType="long" />
+    </fragment>
+</navigation>
